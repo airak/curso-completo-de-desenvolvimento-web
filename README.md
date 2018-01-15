@@ -1,4 +1,4 @@
-# Curso-Completo-de-Desenvolvimento-Web
+# Curso Completo de Desenvolvimento Web
 Aprenda a desenvolver sites e sistemas web do zero utilizando HTML, CSS, Bootstrap, JavaScript, JQuery, PHP, POO e MySQL
 
 Quer iniciar uma carreira como desenvolvedor web? Quer aprender as ferramentas mais utilizadas para desenvolvimento de sites e sistemas web? Quer tirar o seu projeto do papel e colocá-lo na internet? Esse curso completo de desenvolvimento web é pra você! Com ele você aprenderá, na prática, como transformar suas ideias em sistemas WEB.
