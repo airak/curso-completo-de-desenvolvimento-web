@@ -1,0 +1,76 @@
+/*#box{
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+	background-image: url("../img/camera.png");
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#box  h1{
+	background: rgba(255,255,255,0.5);
+}
+
+#box-degrade{
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+	padding: 5px;
+	background: linear-gradient(red, yellow);
+	background: linear-gradient(20deg, red, yellow);
+	background: radial-gradient(red, yellow, red);
+}*/
+
+#box{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding: 8px;
+	background: #009670;
+	box-shadow: 10px 10px 10px black;
+}
+
+#box h1{
+	color: white;
+	font-size: 60px;
+	/*text-shadow: 3px 3px black, -6px -6px red;*/
+	text-shadow: 3px 3px black;
+}
+
+/***************************************
+Animações*/
+
+@keyframes animacao-box {
+	from {background: red; border-radius: 0px;top:0; left: 0;}
+	to   {background: yellow;border-radius: 100px;top:200px; left: 200px;}
+}
+
+#box-animacao{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	/*animation-name: animacao-box;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count:2;
+	animation-direction: alternate;*/
+
+	animation: animacao-box 5s 2s 3 alternate;
+}
+
+
+
+/***************************************
+Transições*/
+
+#box-transicao{
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#box-transicao:hover{
+	background: black;
+	width: 400px;
+	transition: all 2s;
+}

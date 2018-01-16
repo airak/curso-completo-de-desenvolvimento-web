@@ -1,0 +1,16 @@
+/* Limpar formatacões padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-size: 16px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background: #f3f3f3;
+
+}
+
+#navegacao {
+  background: #fff;
+  
